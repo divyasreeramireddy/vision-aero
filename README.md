@@ -16,16 +16,31 @@ A Flask web app that classifies terrain from an image (or live capture) and scor
 
 ## Project Structure
 ```
-├── app.py                  # Flask app entry point
-├── gradcam.py               # Grad-CAM heatmap generation
-├── train.py                  # Model training script
+visionaero-drone-landing/
+├── app.py
+├── gradcam.py
+├── train.py
+├── download_images.py
+├── download_test_images.py
+├── organize_dataset.py
+├── rename_folders.py
+├── requirements.txt
+├── README.md
+├── Dockerfile
+├── labels.pkl
+├── history.json
+├── confusion_matrix.png
+├── training_curves.png
 ├── model/
-│   ├── best_weights.h5        # Trained CNN weights
-│   └── rf_model.pkl           # Trained Random Forest classifier
-├── labels.pkl                # Class label encoder
-├── templates/                # HTML templates (index, result, history, about)
-├── static/                   # CSS/JS/uploaded images
-└── requirements.txt
+│   ├── best_weights.h5
+│   └── rf_model.pkl
+├── templates/
+│   ├── index.html
+│   ├── result.html
+│   ├── history.html
+│   └── about.html
+└── static/
+    └── uploads/          (created automatically when the app runs)
 ```
 
 ## Setup
