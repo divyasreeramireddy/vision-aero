@@ -40,7 +40,7 @@ visionaero-drone-landing/
 │   ├── history.html
 │   └── about.html
 └── static/
-    └── uploads/          (created automatically when the app runs)
+    └── uploads/         
 ```
 
 ## Setup
