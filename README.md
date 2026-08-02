@@ -2,6 +2,9 @@
 
 A Flask web app that classifies terrain from an image (or live capture) and scores it for drone landing safety, using a CNN (ResNet/ResNeXt-based) feature extractor combined with a Random Forest classifier, plus Grad-CAM explainability.
 
+#link of project
+https://vision-aero-dronelanding.onrender.com
+
 ## Features
 - Terrain classification (road, grass, forest, building, water, rocky)
 - Risk scoring and landing recommendation per terrain type
